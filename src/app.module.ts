@@ -15,6 +15,7 @@ import { UsersModule } from './users/users.module';
       database: process.env.DB,
       autoLoadEntities: true,
       synchronize: true,
+      // logging: ['query', 'error', 'warn'],
     }),
     UsersModule,
   ],
